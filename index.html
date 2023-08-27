@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+    <title>Photo Gallery</title>
+</head>
+<body>
+    <div class="page__container">
+        <div class="range__container">
+            <div class='name'>
+                <img src='./assets/Asterisk.svg' alt='asterisk svg' />
+                <p>Paige Braun</p>
+            </div>
+            <input class="range" type="range" min="0" max="100" step="0.5" value="0">
+        </div>
+
+        <!-- IMAGES -->
+        <main class="main">
+            <section class="image__section">
+            </section>
+        </main>
+
+        <footer class="footer">
+        </footer>
+    </div>
+
+    <div class="popup">
+        <div class="popup__arrow">Prev</div>
+
+        <div class="popup__header">
+            <div class="popup__image-count">
+                <span class="popup__current-count">001</span>
+                <span>/</span>
+                <span class="popup__total-count"></span>
+            </div>
+            <button class="button__close-popup">Close</button>
+        </div>
+        
+        <div class="popup__image--container">
+            <img class="popup__image" src="" alt=""></img>
+        </div>
+
+    </div>
+
+    <script src="./js/index.js" type="text/javascript"></script>
+</body>
+</html>
