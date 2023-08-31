@@ -6,8 +6,6 @@
     --gap: 20px;
     --light-grey: #D4D4D4;
     --black: #101010;
-    --portrait: 3 / 4;
-    --landscape: 4 / 3;
 }
 
 * {
@@ -173,13 +171,11 @@ a {
 .popup--portrait {
     max-width: 480px;
     width: 100%;
-    aspect-ratio: var(--portrait);
 }
 
 .popup--landscape {
     max-width: 960px;
     width: 100%;
-    aspect-ratio: var(--landscape);
 }
 
 .popup__image {
